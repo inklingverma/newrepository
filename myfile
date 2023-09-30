@@ -1,0 +1,26 @@
+#include<stdio.h>
+ char c;
+void printindian();
+void printindian(){
+    if (c=='I')
+    {
+        printf("namaste");
+    }
+    
+    
+}
+void printfrench();
+void printfrench(){
+   if(c=='F')
+    {
+        printf("bonjour");
+    }
+}
+int main(){
+    printf("enter your country code:   ");
+    scanf("%c",&c);
+   printindian();
+   printfrench();
+
+return 0;
+}
